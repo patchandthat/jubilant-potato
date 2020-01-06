@@ -10,7 +10,7 @@ namespace AbsoluteLayoutA11y
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new ButtonRepro();
         }
 
         protected override void OnStart()
