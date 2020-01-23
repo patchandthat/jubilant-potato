@@ -23,11 +23,6 @@
                     x:Name="BiometricButton"
                     ImageSource="touch_id"
                     BackgroundColor="Transparent"
-                    HeightRequest="40"
-                    WidthRequest="40"
-                    Padding="0"
-                    HorizontalOptions="Center"
-                    Margin="0,0,0,5"
                     AutomationProperties.IsInAccessibleTree="True"
                     AutomationProperties.HelpText="image button voiceover help text"
                     AutomationProperties.Name="image button voiceover name"/>
