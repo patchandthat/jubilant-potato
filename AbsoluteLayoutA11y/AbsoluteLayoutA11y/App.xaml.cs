@@ -10,7 +10,7 @@ namespace AbsoluteLayoutA11y
         {
             InitializeComponent();
 
-            MainPage = new ButtonRepro();
+            MainPage = new FastRendererImageButton();
         }
 
         protected override void OnStart()

@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="AbsoluteLayoutA11y.FastRendererImageButton">
+    <ContentPage.Content>
+
+        <StackLayout
+            Margin="0,0,0,22"
+            Spacing="0"
+            Padding="0"
+            VerticalOptions="End">
+
+            <StackLayout
+                Spacing="0"
+                Margin="0"
+                Padding="0"
+                HorizontalOptions="Center">
+
+                <Button
+                    x:Name="BiometricButton"
+                    ImageSource="touch_id"
+                    BackgroundColor="Transparent"
+                    HeightRequest="40"
+                    WidthRequest="40"
+                    Padding="0"
+                    HorizontalOptions="Center"
+                    Margin="0,0,0,5"
+                    AutomationProperties.IsInAccessibleTree="True"
+                    AutomationProperties.HelpText="image button voiceover help text"
+                    AutomationProperties.Name="image button voiceover name"/>
+
+            </StackLayout>
+
+        </StackLayout>
+
+    </ContentPage.Content>
+</ContentPage>

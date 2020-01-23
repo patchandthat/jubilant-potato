@@ -13,7 +13,7 @@
     <Compile Remove="ButtonA11y.cs" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Update="ButtonRepro.xaml">
+    <EmbeddedResource Update="FastRendererImageButton.xaml">
       <Generator>MSBuild:UpdateDesignTimeXaml</Generator>
     </EmbeddedResource>
   </ItemGroup>

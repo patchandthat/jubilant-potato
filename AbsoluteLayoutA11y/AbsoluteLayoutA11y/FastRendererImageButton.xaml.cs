@@ -10,9 +10,9 @@ using Xamarin.Forms.Xaml;
 namespace AbsoluteLayoutA11y
 {
     [XamlCompilation(XamlCompilationOptions.Compile)]
-    public partial class ButtonRepro : ContentPage
+    public partial class FastRendererImageButton : ContentPage
     {
-        public ButtonRepro()
+        public FastRendererImageButton()
         {
             InitializeComponent();
         }
